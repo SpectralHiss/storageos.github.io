@@ -3,7 +3,7 @@
 /* GENERAL */
 .container{
 	width: 100% !important;
-	max-width: 1230px;
+	/*max-width: 1230px;*/
 }
 html, body {
     min-height: 100%;
@@ -117,6 +117,7 @@ span.green {
 .logo img{
     height: auto;
     width: 100%;
+    max-width: 370px;
 }
 ul.top-bar-links{
 	list-style: none;
@@ -1033,11 +1034,12 @@ span.icon-bars {
 	}
 }
 /**************************** RESPONSIVE ****************************/
+/*
 @media (min-width: 1366px) {
 	.container {
 	    width: 1230px;
 	}
-}
+}*/
 @media only screen and (max-width: 1200px){
 	.login .image-wrapper img{
 		width: 130%;
