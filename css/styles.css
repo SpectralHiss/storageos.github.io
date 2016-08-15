@@ -40,6 +40,31 @@ a:hover, a:focus {
 p {
 	font-size: 17px;
 }
+table {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-spacing: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+thead {
+    background-color: #555;
+    color: white;
+}
+tr:nth-child(even) {
+	background-color: #f7f7f7;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    margin: 0;
+}
+th {
+    font-weight: normal;
+}
+#docContents li {
+	font-size: 15px;
+}
 .columns.left {
 	float: left !important;
 }
