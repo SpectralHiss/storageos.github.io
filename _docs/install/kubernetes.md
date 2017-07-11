@@ -39,10 +39,10 @@ on kubernetes using DaemonSet follow the steps below.
 3. A consul cluster running that is accessible from the kubernetes cluster, the consul servers
 can only be able to be used for one storageOS cluster at a time (dedicated storageos cluster).
 
-## StorageOS on GCE/GKE
+## GCE/GKE Installation
 
 * Note: Currently GKE does not support kubernetes 1.7, we expect to support GKE when it upgrades the supported
-kubernetes version to include 1.7+. The following instructions are for GCE with a 1.7 release.
+kubernetes version to 1.7+. The following instructions are for GCE with a 1.7 kubernetes release installed.
 
 StorageOS needs to run on every node, which makes kubernetes daemonsets the ideal deployment method.
 Before we may create our `daemonSet` we need to enable shared mount propagation to the container 
